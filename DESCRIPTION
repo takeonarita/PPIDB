@@ -1,0 +1,17 @@
+Package: PPIDB
+Type: Package
+Title: Integrated PPI analysis database
+Version: 0.0.0.9000
+Date: 2015-06-09
+Authors@R: person("Takeo", "Narita", email = "narita.takeo@gmail.com",
+  role = c("aut", "cre"))
+Author: Takeo Narita
+Description: Various Datasets for analysing PPI datasets.
+License: GPL-2
+LazyData: TRUE
+VignetteBuilder: knitr
+Suggests: knitr,
+    testthat
+Imports: ggplot2 (>= 1.0.1),
+    topGO (>= 2.20.0)
+URL: https://github.com/takeonarita/PPIDB.git
